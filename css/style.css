@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* regular css starts */
+.container{
+    display: flex;
+    padding: 0 10%;
+}
+.col-12{
+    width: 100%;
+}
+.col-6{
+    width: 50%;
+}
+.col-4{
+    width: 31%;
+    margin: 0 25px;
+}
+.col-4:first-child{
+    margin-left: 0;
+}
+.col-4:last-child{
+    margin-right: 0;
+}
+.text-center{
+    text-align: center;
+}
+.color-orange{
+    color: orange;
+}
+.btn-orange{
+    background-image: linear-gradient(rgb(253, 79, 48) , #fc8f49);
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    margin-top: 35px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #303030;
+}
+
+/* section css */
+/* header start */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #001528;
+    padding: 25px 10%;
+    margin-bottom: 20px;
+}
+header h2{
+    color: #ddd;
+}
+header ul{
+    list-style: none;
+}
+header ul li{
+    display: inline;
+    padding: 0 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+header .order-btn .btn-orange{
+    margin-top: 0px;
+    padding: 10px 25px;
+}
+/* header ends */
+/* banner starts */
+#banner{
+    padding: 30px 0;
+}
+#banner .container , #about .container{
+    align-items: center;
+}
+#banner h1{
+    font-size: 56px;
+    font-weight: bold;
+    color: #585858;
+}
+#banner p{
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+#banner .banner-img img{
+    max-width: 100%;
+}
+/* banner ends */
+/* about starts */
+#about{
+    background-image: url(../images/shapes/7.png);
+    padding: 100px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#about h2{
+    font-size: 48px;
+}
+#about p{
+    font-size: 18px;
+    margin:35px 0 45px;
+}
+#about .about-img img{
+    max-width: 50%;
+}
+/* about ends */
+/* recipie starts */
+#recipie{
+    padding: 90px 0;
+}
+#recipie h2{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+#recipie p{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+#recipie .recipie-box{
+    padding: 20px;
+    box-shadow: 0px 3px 20px 5px rgba(0,0,0,0.5);
+    border-radius: 30px;
+}
+#recipie .recipie-box .feature-img img{
+    max-width: 100%;
+}
+#recipie .recipie-box .recipie-title{
+    font-size: 32px;
+    margin: 30px 0 15px;
+}
+#recipie .recipie-box p{
+    font-size: 18px;
+}
+/* Recipie ends */
+/* statistics starts*/
+#statistics{
+    margin-bottom: 120px;
+}
+#statistics .stastistics-width{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 35px 0;
+    border-radius: 30px;
+    box-shadow: 0px 3px 20px 5px rgba(0,0,0,0.5);
+}
+#statistics h2{
+    font-size: 48px;
+    margin-bottom: 15px;
+    
+}
+/* statistics ends */
+/* order starts */
+#order{
+    background: url(../images/shapes/7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 0;
+}
+
+#order .form-wrapper {
+	width: 600px;
+	padding: 70px 0;
+	margin: 0 auto;
+	background: #fc894673;
+    border-radius: 30px;
+}
+#order .form-wrapper h3{
+    margin-bottom: 40px;
+}
+#order .form-wrapper input{
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#order .form-wrapper select{
+    padding: 10px 50px;
+    margin: 10px;
+}
+/* order ends */
+/* footer starts */
+footer{
+    background: #001528;
+    padding: 35px 0 85px;
+}
+footer h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #ddd;
+}
+footer p{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
